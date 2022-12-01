@@ -6,7 +6,7 @@ esphome:
   name: ${name}
   name_add_mac_suffix: true
   project:
-    name: lind42.bluetooth-proxy
+    name: esphome.bluetooth-proxy
     version: "1.0"
 
 esp32:
@@ -34,8 +34,8 @@ esp32_ble_tracker:
     active: true
 
 bluetooth_proxy:
-  active: true
-  
+ # active: true
+
 button:
 - platform: safe_mode
   name: Safe Mode Boot
