@@ -25,16 +25,16 @@ improv_serial:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://lind42/bluetooth-proxies/esp32-generic.yaml@main
+  package_import_url: github://lind42/bluetooth-proxies/esp32-generic.yaml@prax
 
 esp32_ble_tracker:
   scan_parameters:
     interval: 1100ms
     window: 1100ms
-    #active: true
+    active: 
 
 bluetooth_proxy:
-  #active:
+  active:
 
 button:
 - platform: safe_mode
